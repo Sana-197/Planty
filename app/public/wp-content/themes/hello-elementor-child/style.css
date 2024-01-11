@@ -11,3 +11,68 @@
  Tags:         accessibility-ready, flexible-header, custom-colors, custom-menu, custom-logo, featured-images, rtl-language-support, threaded-comments, translation-ready,
 Text Domain:   hello-elementor-child
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+/* HEADER*/
+#site-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-block-start: 0;
+  padding-block-end: 1rem;
+  position: relative;
+ }
+
+#menu-item-30{
+  background-color: #DC9F96;
+  padding: 1rem;
+  padding-left: 3rem;
+  padding-right:3rem;
+  font-size: 16px;
+  }
+  #menu-item-30 a {
+    color:white;
+    font-family: syne; 
+}
+
+ 
+#menu-item-30:hover{
+  background-color:#C02E44 !important; 
+  font-size: 16px;
+}
+
+#menu-item-31{
+  padding: 1rem;
+  font-size: 16px;
+  font-family: syne;
+  padding-left: 3rem;
+  padding-right:3rem;
+
+  }
+#menu-item-31:hover{
+  font-weight: bold ;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/*Footer*/
+.footer{
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-family: syne;
+}
+
+.footer a {
+  color: black;
+  font-size: 15px;
+  font-family: syne;
+}
+.footer a:hover{
+  text-decoration: none;
+}
