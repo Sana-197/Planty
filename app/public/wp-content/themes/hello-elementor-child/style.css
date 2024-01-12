@@ -76,3 +76,13 @@ Text Domain:   hello-elementor-child
 .footer a:hover{
   text-decoration: none;
 }
+
+/*css additionel page d'accueil*/
+.textOverImage figcaption {
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  
+  }
