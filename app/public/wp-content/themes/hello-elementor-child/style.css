@@ -20,7 +20,7 @@ Text Domain:   hello-elementor-child
   flex-wrap: wrap;
   justify-content: space-between;
   padding-block-start: 0;
-  padding-block-end: 1rem;
+  padding-block-end: 0;
   position: relative;
  }
 
@@ -61,11 +61,11 @@ Text Domain:   hello-elementor-child
   padding-block-start: 1rem;
   padding-block-end: 1rem;
   position:absolute;
-  bottom: 0;
   width: 100%;
   text-align: center;
   color: black;
   font-family: syne;
+  background-color: white;
 }
 
 .footer a {
