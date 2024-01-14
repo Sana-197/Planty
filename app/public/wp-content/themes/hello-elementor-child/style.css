@@ -38,8 +38,38 @@ Text Domain:   hello-elementor-child
 
  
 #menu-item-30:hover{
-  background-color:#C02E44 !important; 
+  background-color:#C02E44; 
   font-size: 16px;
+} 
+/* Media query pour tablette et mobile */
+@media only screen and (max-width: 800px) {
+  #menu-item-30 {
+    background-color: white; 
+    
+  }
+  #menu-item-30 a{
+    color: black;
+    background-color: white;
+  }
+
+  #menu-item-30:hover {
+    background-color: white; 
+    
+  }
+  
+}
+
+@media only screen and (max-width: 800px) {
+  #menu-item-31 a {
+    font-size: 16px;
+    font-weight: normal;
+    color: black; 
+  }
+
+  #menu-item-31:hover {
+    font-weight: normal; 
+    font-size: 16px; 
+  }
 }
 
 #menu-item-31{
@@ -77,7 +107,7 @@ Text Domain:   hello-elementor-child
   text-decoration: none;
 }
 
-/*css additionel page d'accueil*/
+/*css additionel page d'accueil, et page de page de commande*/
 .textOverImage figcaption {
   position: absolute;
   margin: 0;
@@ -86,3 +116,11 @@ Text Domain:   hello-elementor-child
   transform: translateY(-50%);
   
   }
+  .TitleOverImage figcaption {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    }
