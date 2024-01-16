@@ -23,7 +23,17 @@ Text Domain:   hello-elementor-child
   padding-block-end: 0;
   position: relative;
  }
+ #menu-item-31 {
+  order: 1;
+}
 
+#menu-item-admin {
+  order: 2;
+}
+
+#menu-item-30 {
+  order: 3;
+}
 #menu-item-30{
   background-color: #DC9F96;
   padding: 1rem;
@@ -41,10 +51,43 @@ Text Domain:   hello-elementor-child
   background-color:#C02E44; 
   font-size: 16px;
 } 
+
+
+#menu-item-31{
+  padding: 1rem;
+  font-size: 16px;
+  font-family: syne;
+  
+
+  }
+#menu-item-31:hover{
+  font-weight: bold ;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#menu-item-admin{
+  font-size: 16px;
+  font-family:syne;
+  padding:1rem;
+  padding-right: 2.5rem;
+  
+  
+}
+#menu-item-admin a{
+  color: black;
+}
+
+
+
+
 /* Media query pour tablette et mobile */
+
 @media only screen and (max-width: 800px) {
   #menu-item-30 {
     background-color: white; 
+    padding-right:0;
+    padding-left:0;
     
   }
   #menu-item-30 a{
@@ -66,25 +109,29 @@ Text Domain:   hello-elementor-child
     color: black; 
   }
 
+  #menu-item-31{
+    padding-left:0;
+    padding-right:0;
+  }
+
   #menu-item-31:hover {
     font-weight: normal; 
     font-size: 16px; 
   }
 }
 
-#menu-item-31{
-  padding: 1rem;
-  font-size: 16px;
-  font-family: syne;
-  padding-left: 3rem;
-  padding-right:3rem;
+@media only screen and (max-width: 800px) {
 
+   #menu-item-admin{
+    padding-left:0;
+    padding-right:0;
   }
-#menu-item-31:hover{
-  font-weight: bold ;
-  font-size: 13px;
-  font-weight: bold;
+
+ 
 }
+
+
+
 
 /*Footer*/
 .footer{
@@ -116,11 +163,4 @@ Text Domain:   hello-elementor-child
   transform: translateY(-50%);
   
   }
-  .TitleOverImage figcaption {
-    position: absolute;
-    margin: 0;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-    
-    }
+  
